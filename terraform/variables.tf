@@ -30,7 +30,7 @@ variable "policy_name" {}
 variable "report_build_status" {}
 
 
-variable "project_name" {}
+
 variable "s3_bucket_id" {}
 variable "artifacts_store_type" {}
 variable "source_provider" {}
@@ -40,8 +40,6 @@ variable "full_repository_id" {}
 variable "branch_name" {}
 variable "codestar_connector_credentials" {}
 variable "output_artifact_format" {}
-variable "role_name" {}
-variable "policy_name" {}
 variable "approve_sns_arn" {}
 variable "approve_comment" {}
 variable "approve_url" {}
