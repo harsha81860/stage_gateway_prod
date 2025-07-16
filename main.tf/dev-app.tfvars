@@ -26,5 +26,5 @@ buildspec_file_absolute_path = "./buildspec/apply-buildspec.yml"
 //security_group_ids = [""]
 source_location = "https://github.com/harsha81860/stage_gateway_prod.git"
 s3_bucket_id = "codepipeline-eu-west-2-919922704011"
-full_repository_id = "harsha81860/stage_gateway_prod"
-codestar_connector_credentials = "arn:aws:codeconnections:eu-west-2:567404226201:connection/7ec5009b-fc88-45ad-b0d9-1b26fc974d01"
+full_repository_id = "datmanltd/gateway_Automation"
+codestar_connector_credentials = "arn:aws:codeconnections:eu-west-2:567404226201:connection/c0617ee3-53a3-4e1f-92ff-27ffe7e6e06f"
