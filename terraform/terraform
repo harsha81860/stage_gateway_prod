@@ -8,7 +8,7 @@ locals {
 }
 
 module "codebuild" {
-    source = "../../modules/e2esa-module-aws_codebuild"
+    source = "../../modules/codebuild"
     project_name = var.project_name
     project_desc = var.project_desc
     environment_compute_type = var.environment_compute_type
@@ -23,7 +23,7 @@ module "codebuild" {
 }
 
 module "codepipeline" {
-    source = "../../modules/e2esa-module-aws_codepipeline"
+    source = "../../modules/codepipeline"
     project_name = var.project_name
     s3_bucket_id = var.s3_bucket_id
     full_repository_id = var.full_repository_id
