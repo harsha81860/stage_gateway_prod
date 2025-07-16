@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"codebuild","Source":"../../modules/e2esa-module-aws_codebuild","Dir":""},{"Key":"codepipeline","Source":"../../modules/e2esa-module-aws_codepipeline","Dir":""}]}
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"codebuild","Source":"../modules/codebuild","Dir":"../modules/codebuild"},{"Key":"codepipeline","Source":"../modules/codepipeline","Dir":"../modules/codepipeline"}]}
