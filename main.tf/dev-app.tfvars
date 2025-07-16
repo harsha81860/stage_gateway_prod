@@ -1,6 +1,5 @@
 # terraform apply -var-file="dev-app.tfvars"
-project = "stage_gateway"
-
+project = "stage_gateway_automation"
 aws_region = "eu-west-2"
 createdby  = "harsha"
 
