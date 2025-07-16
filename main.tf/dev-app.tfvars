@@ -1,7 +1,7 @@
-# terraform apply -var-file="dev-app.tfvars"
+# terraform apply -var-file="dev-app.tfvars" -var="createdBy=harsha" --auto-approve
 project = "stage_gateway_automation"
 aws_region = "eu-west-2"
-createdby  = "harsha"
+createdBy  = "harsha"
 
 
 project_name = "stage_gateway_automation"
